@@ -1,0 +1,18 @@
+include <iostream>
+using namespace std;
+int# main(){
+	int a,b ;
+	cout<<"Enter Number One";
+	cin>>a;
+	cout<<"Enter Number two";
+	cin>>b;
+	if(a%b==0){
+	
+	cout<<a<<" is multiple of "<<b;}
+	if(a%b!=0){
+		cout<<a<<" is not multiple of"<<b;
+	}
+	
+	
+	return 0;
+}
