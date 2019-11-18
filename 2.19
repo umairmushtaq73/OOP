@@ -1,0 +1,48 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a,b,c;
+	
+	cout<<"Enter integer one";
+	cin>>a;
+	cout<<"Enter integer two";
+	cin>>b;
+	cout<<"Enter integer three";
+	cin>>c;
+system("cls");
+//sum,average,product,smallest,largest
+
+cout<<"Input three different integers:"<<a<<","<<b<<","<<c<<""<<endl;
+cout<<"Sum:"<<a+b+c<<endl;
+cout<<"Product:"<<a*b*c<<endl;
+cout<<"Average:"<<a+b+c/3<<endl;
+
+//larger
+if(a>b&&a>c){
+cout<<a<< "is larger"<<endl;
+}
+
+if(b>a&&b>c){
+	cout<<b<<"is larger"<<endl;
+}
+
+if(c>a&&c>b){
+	cout<<c<<"is larger"<<endl;
+}
+
+//smaller
+if(a<b&&a<c){
+cout<<a<< "is samller";
+}
+
+if(b<a&&b<c){
+	cout<<b<<"is smaller";
+}
+
+if(c<a&&c<b){
+	cout<<c<<"is smaller";
+}
+
+return 0;	
+}
