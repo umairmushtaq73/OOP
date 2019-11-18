@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	float a,b;
+	
+	cout<<"Enter integer one";
+	cin>>a;
+	cout<<"Enter integer two";
+	cin>>b;
+	
+	
+	if(a==b){
+	
+	cout<<"Both integers are equal";
+}
+
+if (a>b){
+	cout<<a<<"is larger";
+}
+	
+if(b>a){
+	cout<<b<<"is larger";
+}
+	
+	return 0;
+}
