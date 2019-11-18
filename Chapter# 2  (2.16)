@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,sum,product,difference;
+	float quotient;
+	 
+	cout<<"Enter 1 numbers";
+	cin>>a;
+	cout<<"Enter 2 numbers";
+	cin>>b;
+	
+	sum=a+b;
+	product=a*b;
+	difference=a-b;
+	quotient=(float)a/b;
+	
+	cout<<"\tsum\t"<<"\tproduct\t"<<"\tdifference\t"<<"\tdivide\t"<<endl;
+	
+	
+	cout<<"\t"<<sum<<"\t\t"<<product<<"\t\t"<<difference<<"\t\t\t"<<quotient;
+
+   
+
+    return 0;
+}
