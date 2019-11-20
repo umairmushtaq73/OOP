@@ -1,0 +1,30 @@
+#include <iostream> 
+using namespace std; 
+int main() 
+{
+double milesperday= 0; 
+double costpergallon = 0; 
+double avmilespergallon= 0; 
+double parkingfeedaily= 0;
+double dailytolls = 0; 
+double costperday = 0; 
+
+cout << "a) Total Miles driven per day."; 
+cin  >> milesperday; 
+cout << "b) Cost per gallon of gasoline."; 
+cin >> costpergallon ; 
+cout << "c) Average Miles per gallon."; 
+cin >> avmilespergallon ; 
+cout << "d) Parking fees per day."; 
+cin >> parkingfeedaily ; 
+cout << "e) Tolls per day.";   
+cin >> dailytolls ; 
+ 
+dailytolls =1.25;
+ parkingfeedaily= 1.26;
+
+ costperday= dailytolls+parkingfeedaily+(milesperday/avmilespergallon)*costpergallon; 
+cout << "Cost per day of driving to work="<<costperday<<endl;
+
+return 0;
+}
